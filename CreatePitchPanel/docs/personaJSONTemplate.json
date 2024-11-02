@@ -1,0 +1,38 @@
+{
+    "persona": {
+        "name": "",
+        "role": "",
+        "background": {
+            "education": "",
+            "experience": ""
+        },
+        "expertise": "",
+        "role_on_panel": "",
+        "key_focus_areas": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "engagement_style": "",
+        "opening_statements": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "follow_up_statements": [
+            "",
+            ""
+        ],
+        "core_concerns": "",
+        "moderator_tone": "",
+        "closing_remarks": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "summary": ""
+    }
+}
