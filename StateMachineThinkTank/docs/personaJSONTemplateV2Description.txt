@@ -1,0 +1,46 @@
+{
+    "name": "", // The full name of the persona.
+    "title": "", // The title of the persona 
+    "role": "", // The role of the persona.
+    "type_of_expertise": "", // The type of expertise the persona has.
+    "attributes": {
+        "education": "", // Educational background (e.g., degree, major, institution).
+        "experience": "", // Brief description of professional experience.
+        "focus": ["", "", ""], // Key focus areas for the persona.
+        "style": "", // Description of how the persona engages in discussions (e.g., "Highly analytical, detail-oriented").
+        "temperment": "", // Description of the persona's temperament or approach to discussions.
+        "concerns": ["", "", ""], // The persona’s primary concerns or biases in panel discussions.
+    },
+    "thought_process": { 
+        "focus_areas": ["", "", "", ""], // Key areas the persona focuses on during discussions.
+        "key_metrics": ["", "", "", ""], // Important metrics the persona considers in decision-making.
+        "decision_making": ["", "", ""] // Factors influencing the persona's decision-making process.
+    },     
+    "response_style": {
+        "initialPresentation": "", // Description of how the persona typically responds to initial presentations.
+        "feedback": "", // Description of the persona's feedback style.
+        "followUpQuestions": "" // Description of the persona's approach to follow-up questions.
+    },
+    "example_responses": {
+        "opening_statements": [
+            "",  // Opening statement 1 (e.g., "From a technical perspective, I'm concerned about scalability.").
+            "",  // Opening statement 2.
+            "",  // Opening statement 3.
+            ""   // Opening statement 4.
+        ],
+        "follow_up_statements": [
+            "",  // Follow-up statement 1 (e.g., "I agree with Persona 2 about scalability concerns, but my issue is immediate execution.").
+            ""   // Follow-up statement 2.
+        ],
+        "closing_remarks": [
+            "",  // Closing remark 1 (e.g., "Overall, the technical foundation is shaky, and the team needs to improve its roadmap.").
+            "",  // Closing remark 2.
+            "",  // Closing remark 3.
+            ""   // Closing remark 4.
+        ],
+    }
+}
+
+
+        "questions_to_ask": ["How clear is the product's value proposition?", "What is the sales strategy for customer acquisition?", "How does the product differentiate from competitors?", "Does the product effectively address customer pain points?"], 
+        // Questions the persona typically asks to evaluate the product.
