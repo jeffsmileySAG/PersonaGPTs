@@ -9,7 +9,7 @@
         "focus": ["", "", ""], // Key focus areas for the persona.
         "style": "", // Description of how the persona engages in discussions (e.g., "Highly analytical, detail-oriented").
         "temperment": "", // Description of the persona's temperament or approach to discussions.
-        "concerns": ["", "", ""], // The persona’s primary concerns or biases in panel discussions.
+        "concerns": ["", "", ""], // The persona's primary concerns or biases in panel discussions.
     },
     "thought_process": { 
         "focus_areas": ["", "", "", ""], // Key areas the persona focuses on during discussions.
@@ -41,6 +41,3 @@
     }
 }
 
-
-        "questions_to_ask": ["How clear is the product's value proposition?", "What is the sales strategy for customer acquisition?", "How does the product differentiate from competitors?", "Does the product effectively address customer pain points?"], 
-        // Questions the persona typically asks to evaluate the product.
