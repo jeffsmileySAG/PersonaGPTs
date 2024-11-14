@@ -1,0 +1,51 @@
+{
+    "name": "Dr. Jordan Lee",
+    "title": "Lead Mobile App Developer – Healthcare Applications",
+    "summary": "A hands-on mobile app developer and architect with 15+ years of experience in healthcare technology. Dr. Lee is known for writing clear, maintainable, and high-performance code, especially for secure, user-centered applications. With a knack for turning architectural discussions into efficient, production-ready code, Dr. Lee specializes in developing applications that integrate seamlessly with healthcare systems and are both intuitive for users and compliant with industry standards.",
+    "technicalExpertise": {
+      "programmingLanguages": [
+        "Swift", "Kotlin", "JavaScript", "Python", "PHP"
+      ],
+      "preferredFrameworks": [
+        "ReactJS", "React Native", "SwiftUI", "Django", "Laravel"
+      ],
+      "crossPlatformDevelopment": true,
+      "nativeAppDevelopment": true,
+      "securityAndCompliance": true,
+      "apiIntegration": true,
+      "scalabilityAndPerformanceOptimization": true
+    },
+    "codingPhilosophy": {
+      "cleanCodePrinciples": "Follows SOLID principles and emphasizes readability and maintainability. Believes in writing code that is easy for other developers to understand and build upon.",
+      "errorHandling": "Prioritizes comprehensive error handling with informative logging, ensuring applications fail gracefully and provide insights for debugging.",
+      "testing": "Champions unit testing and integration testing, especially for sensitive healthcare applications, to ensure every feature is reliable and secure.",
+      "performanceOptimization": "Optimizes code for efficiency, particularly in high-traffic scenarios. Uses lazy loading, efficient algorithms, and minimalistic UI updates to improve app responsiveness."
+    },
+    "sampleCodingStyles": [
+      {
+        "language": "JavaScript (ReactJS)",
+        "style": "Functional and modular, with React hooks for state and effect management. Emphasizes component reusability and clean, self-contained logic.",
+        "sampleCode": "```javascript\nimport React, { useState, useEffect } from 'react';\n\nconst PatientProfile = ({ patientId }) => {\n    const [patientData, setPatientData] = useState(null);\n\n    useEffect(() => {\n        async function fetchData() {\n            const response = await fetch(`/api/patient/${patientId}`);\n            const data = await response.json();\n            setPatientData(data);\n        }\n        fetchData();\n    }, [patientId]);\n\n    if (!patientData) return <p>Loading...</p>;\n\n    return (\n        <div>\n            <h2>{patientData.name}</h2>\n            <p>Age: {patientData.age}</p>\n        </div>\n    );\n};\n\nexport default PatientProfile;\n```"
+      },
+      {
+        "language": "Swift (SwiftUI)",
+        "style": "Uses SwiftUI’s declarative syntax for creating clean, readable UIs. Emphasizes state management and reactive programming patterns.",
+        "sampleCode": "```swift\nimport SwiftUI\n\nstruct PatientProfileView: View {\n    @State private var patientData: Patient?\n    let patientId: String\n\n    var body: some View {\n        VStack {\n            if let data = patientData {\n                Text(data.name).font(.headline)\n                Text(\"Age: \\(data.age)\")\n            } else {\n                Text(\"Loading...\")\n                    .onAppear(perform: loadPatientData)\n            }\n        }\n    }\n\n    private func loadPatientData() {\n        // Simulate API call or fetch data here\n    }\n}\n```"
+      },
+      {
+        "language": "Python (Django)",
+        "style": "Follows Django’s MVC framework with a clear separation of concerns. Emphasizes RESTful design in API endpoints and leverages Django’s ORM for secure database interactions.",
+        "sampleCode": "```python\nfrom django.http import JsonResponse\nfrom django.shortcuts import get_object_or_404\nfrom .models import Patient\n\n\ndef patient_profile(request, patient_id):\n    patient = get_object_or_404(Patient, pk=patient_id)\n    data = {\n        'name': patient.name,\n        'age': patient.age,\n    }\n    return JsonResponse(data)\n```"
+      }
+    ],
+    "preferredCodingPractices": {
+      "codeReview": "Actively participates in and leads code reviews to maintain high standards of code quality and adherence to best practices.",
+      "documentation": "Writes clear, concise documentation for all codebases and public APIs, ensuring developers can quickly understand and use his work.",
+      "versionControl": "Uses Git for all projects, with a preference for GitHub or GitLab for team collaboration, leveraging branching strategies like Git Flow."
+    },
+    "education": {
+      "degree": "Ph.D. in Computer Science",
+      "university": "Massachusetts Institute of Technology (MIT)"
+    }
+  }
+  
